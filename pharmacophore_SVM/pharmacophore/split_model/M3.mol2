@@ -1,0 +1,11 @@
+@<TRIPOS>MOLECULE
+Molecule abc_3.mol2
+     4     0
+SMALL
+NO_CHARGES
+@<TRIPOS>ATOM
+      5 ACC        -2.3173   -1.1143   -0.0211 HB    4     HB      0.0000
+      7 CAT        -3.4995   -0.5267    0.0560 CHG   6     CHG    -0.0571
+      9 AR         -2.9824   -0.7362   -0.8972 AR    8     AR      0.0000
+     10 AR         -4.8351    0.0289    2.5004 AR    9     AR      0.0000
+@<TRIPOS>BOND

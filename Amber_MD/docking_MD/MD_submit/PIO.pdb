@@ -1,0 +1,51 @@
+HETATM    1  S1  PIO A 501     -47.096   1.024  80.639  1.00 50.27           S  
+HETATM    2  C2  PIO A 501     -46.896   2.283  81.697  1.00 48.23           C  
+HETATM    3  O2  PIO A 501     -46.137   3.225  81.496  1.00 48.43           O  
+HETATM    4  N3  PIO A 501     -47.654   2.145  82.793  1.00 42.96           N  
+HETATM    5  C4  PIO A 501     -48.394   1.010  82.800  1.00 47.19           C  
+HETATM    6  O4  PIO A 501     -49.138   0.765  83.747  1.00 48.21           O  
+HETATM    7  C5  PIO A 501     -48.257   0.131  81.702  1.00 45.64           C  
+HETATM    8  C6  PIO A 501     -47.667  -1.209  82.137  1.00 44.05           C  
+HETATM    9  C7  PIO A 501     -47.697  -2.136  81.081  1.00 44.66           C  
+HETATM   10  C8  PIO A 501     -46.593  -2.276  80.250  1.00 46.77           C  
+HETATM   11  C9  PIO A 501     -46.621  -3.192  79.207  1.00 47.47           C  
+HETATM   12  C10 PIO A 501     -47.737  -3.993  78.980  1.00 46.66           C  
+HETATM   13  C11 PIO A 501     -48.841  -3.873  79.821  1.00 47.98           C  
+HETATM   14  C12 PIO A 501     -48.818  -2.943  80.864  1.00 45.96           C  
+HETATM   15  O13 PIO A 501     -47.705  -4.881  77.937  1.00 47.53           O  
+HETATM   16  C14 PIO A 501     -49.012  -5.205  77.424  1.00 49.94           C  
+HETATM   17  C15 PIO A 501     -48.888  -5.894  76.042  1.00 48.62           C  
+HETATM   18  C17 PIO A 501     -49.026  -4.966  74.994  1.00 46.96           C  
+HETATM   19  N18 PIO A 501     -48.010  -4.686  74.158  1.00 49.45           N  
+HETATM   20  C19 PIO A 501     -48.181  -3.758  73.103  1.00 48.27           C  
+HETATM   21  C20 PIO A 501     -49.413  -3.124  72.925  1.00 51.03           C  
+HETATM   22  C21 PIO A 501     -50.450  -3.422  73.797  1.00 50.27           C  
+HETATM   23  C22 PIO A 501     -50.255  -4.345  74.815  1.00 49.82           C  
+HETATM   24  C23 PIO A 501     -49.626  -2.185  71.905  1.00 47.69           C  
+HETATM   25  C24 PIO A 501     -50.627  -2.719  70.878  1.00 54.60           C  
+CONECT    1    2    7
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6    7
+CONECT    6    5
+CONECT    7    1    5    8
+CONECT    8    7    9
+CONECT    9    8   10   14
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13   15
+CONECT   13   12   14
+CONECT   14    9   13
+CONECT   15   12   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19   23
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   24
+CONECT   22   21   23
+CONECT   23   18   22
+CONECT   24   21   25
+CONECT   25   24
+END
